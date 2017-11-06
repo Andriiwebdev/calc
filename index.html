@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>calc</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <!-- CALCULATOR -->
+    <div class="calculator">
+        <h2 class="calculator__name">Logiс&Mind</h2>
+        <div class="calculator__battery"></div>
+        <!-- CALCULATOR FORM -->
+        <form class="calculator__form">
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <input class="calculator__display" id="display" type="text" maxlength="15" disabled />
+            </div>
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <button type="button" class="calculator__key calculator__clear">C</button>
+                <button type="button" class="calculator__key calculator__backspace"></button>
+                <button type="button" class="calculator__key calculator__plusmin">+/-</button>
+                <button type="button" class="calculator__key calculator__power logic">X<sup>2</sup></button>
+                <button type="button"  class="calculator__key calculator__radical logic"></button>
+            </div>
+            <div class="calculator__row">
+                <button type="button" class="calculator__key calculator__cos logic">cos</button>
+                <button type="button" class="calculator__key calculator__sin logic">sin</button>
+                <button type="button" class="calculator__key calculator__tan logic">tan</button>
+                <button type="button" class="calculator__key calculator__lg logic">lg</button>
+                <button type="button" class="calculator__key calculator__ln logic">ln</button>
+
+            </div>
+            <div class="calculator__row">
+                <button type="button" class="calculator__key calculator__acos logic">acos</button>
+                <button type="button" class="calculator__key calculator__asin logic">asin</button>
+                <button type="button" class="calculator__key calculator__atan logic">atan</button>
+                <button type="button" value="(" class="calculator__key calculator__button math">(</button>
+                <button type="button" value=")" class="calculator__key calculator__button math">)</button>
+            </div>
+            <div class="calculator__row">
+                <button type="button" class="calculator__key calculator__exp logic">exp</button>
+                <button type="button" class="calculator__key calculator__pi logic">PI</button>
+                <button type="button" class="calculator__key calculator__factorial logic">!</button>
+                <button type="button" class="calculator__key calculator__percent logic">%</button>
+                <button type="button" value="+" class="calculator__key calculator__button math">+</button>
+            </div>
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <button type="button" value="9" class="calculator__key calculator__button">9</button>
+                <button type="button" value="8" class="calculator__key calculator__button">8</button>
+                <button type="button" value="7" class="calculator__key calculator__button">7</button>
+                <button type="button" value="-" class="calculator__key calculator__button math">-</button>
+            </div>
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <button type="button" value="6" class="calculator__key calculator__button">6</button>
+                <button type="button" value="5" class="calculator__key calculator__button">5</button>
+                <button type="button" value="4" class="calculator__key calculator__button">4</button>
+                <button type="button" value="*" class="calculator__key calculator__button math">*</button>
+            </div>
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <button type="button" value="3" class="calculator__key calculator__button">3</button>
+                <button type="button" value="2" class="calculator__key calculator__button">2</button>
+                <button type="button" value="1" class="calculator__key calculator__button">1</button>
+                <button type="button" value="/" class="calculator__key calculator__button math">/</button>
+            </div>
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <button type="button" value="0" class="calculator__key calculator__button">0</button>
+                <button type="button" value="." class="calculator__key calculator__button dot">.</button>
+                <button type="button" value="=" class="calculator__key calculator__key--equal math">=</button>
+            </div>
+        </form>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script/script.js"></script>
+    </body>
+</html>
